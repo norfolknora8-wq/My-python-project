@@ -6,4 +6,4 @@ is_student = True
 print(type(price))
 total = int("5") + 2
 print(10 //3, 10 % 3 )
-print(age >= 18 and is_student)
+print(age <= 15 and is_student)
