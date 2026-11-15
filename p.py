@@ -1,7 +1,18 @@
-temperature = float(input("enter a number in celcius: "))
-farhenhiet = (temperature * 9/5) + 32
-print("temperature in farhenhiet:", farhenhiet)
+print("1. Multiplication")
+print("2. Subtraction")
+print("3. Division")
+print("4. Addition")
 
-temperature = float(input("enter a numbeer in farhenhiet: "))
-celcius = (temperature - 32) * 9/5
-print("temperature in celcius:", celcius)
+choice = input("enter your choice: ")
+
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+
+if choice == "1":
+    print(a * b)
+elif choice == "2":
+    print(a - b)
+elif choice == "3":
+    print(a / b)
+else:
+    print(a + b)
