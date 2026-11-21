@@ -5,8 +5,8 @@ print("4. Addition")
 
 choice = input("enter your choice: ")
 
-a = int(input("enter first number: "))
-b = int(input("enter second number: "))
+a = float(input("enter first number: "))
+b = float(input("enter second number: "))
 
 if choice == "1":
     print(a * b)
